@@ -29,3 +29,38 @@
   gap: 14px;
   opacity: 0px;
 }
+.uzum {
+  width: 350px;
+  height: 300px;
+  top: 801px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+  .img1 {
+    margin-left: 154px;
+  }
+}
+
+.uzum-qulpunoy {
+  gap: 30px;
+}
+
+.qizaloq {
+  width: 350px;
+  height: 630px;
+  top: 471px;
+  left: 925px;
+  gap: 0px;
+  opacity: 0px;
+  .qzi {
+    margin-left: 53px;
+    width: 267px;
+    height: 366px;
+
+    gap: 0px;
+    opacity: 0px;
+  }
+}
+.ob {
+  gap: 35px;
+}
