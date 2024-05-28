@@ -1,15 +1,33 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
-import { Navbar } from "../components";
-function HomeLayout() {
+
+function Home() {
   return (
-    <>
-      <Navbar />
-      <main>
-        <Outlet />
-      </main>
-    </>
+    <div className="align-element mt-10 rounded-xl 	">
+      <section className="bg-base-200 rounded-xl	items-center flex flex-col ">
+        <h1 className="pt-16 font-bold text-4xl	mb-3 ">Welcome to our blog</h1>
+        <p className="pb-16 ">
+          Here you can find a lot of interesting and useful information that you{" "}
+          need in gardening and creating a beautiful garden
+        </p>
+      </section>
+      <section className="flex gap-5 mt-5 justify-between">
+        <div className="form-control rounded-xl w-5/6">
+          <input
+            type="text"
+            placeholder="Search"
+            className="input input-bordered w-24 md:w-auto"
+          />
+        </div>
+        <select className="select select-bordered  w-full max-w-xs">
+          <option disabled selected>
+            Recently{" "}
+          </option>
+          <option>Han Solo</option>
+          <option>Greedo</option>
+        </select>
+      </section>
+    </div>
   );
 }
 
-export default HomeLayout;
+export default Home;

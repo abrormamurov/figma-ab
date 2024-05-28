@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+  .align-element {
+    @apply max-w-6xl mx-auto px-4;
+  }
+}

@@ -6,13 +6,14 @@ import {
   Contacts,
   AllProducts,
   OurBlock,
+  HomeLayout,
 } from "./pages";
 
 function App() {
   const routes = createBrowserRouter([
     {
       path: "/",
-      element: <Home />,
+      element: <HomeLayout />,
       errorElement: <Error />,
       children: [
         {
