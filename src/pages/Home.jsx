@@ -92,6 +92,78 @@ function Home() {
           <img className="qzi" src="/public/qiz.png" alt="" />
         </div>
       </main>
+      <div className="flex shap">
+        <div className="bg-base-200 flex cucumber mt-5 rounded-xl p-2 ">
+          <div className="cucumber-2">
+            <img src="/public/Frame 26.svg" className="mb-2 pl-5 pt-5" alt="" />
+
+            <h2 className=" text-2xl font-bold mb-2 pl-5">
+              How to plant spinach correctly in winter
+            </h2>
+            <p className="mb-2 pl-5">
+              In most areas, successive sowing can be done from early spring
+              until early winter, but more often during hotter months...
+            </p>
+            <button className="btn mb-5 ml-5 btn1">Read</button>
+          </div>
+          <div>
+            <img src="/public/qulpinoy2.png" width={294} height={300} alt="" />
+          </div>
+        </div>
+        <div className="bg-base-200 uzum mt-5 rounded-xl">
+          {" "}
+          <img src="/public/Frame 26.svg" className="mb-2 pl-5 pt-5" alt="" />
+          <h2 className=" text-2xl font-bold mb-2 pl-5">
+            How to plant spinach correctly in winter{" "}
+          </h2>
+          <button className="btn  ml-5 btn1">Read</button>
+          <img className="img1" src="/public/shapka.png" alt="" />
+        </div>
+      </div>
+      <div className="flex ohiri mt-5">
+        <div className="qizaloq bg-base-200 rounded-xl">
+          <img src="/public/Frame 26.svg" className="mb-2 pl-5 pt-5" alt="" />
+          <h2 className=" text-2xl font-bold mb-2 pl-5">
+            How to plant spinach correctly in winter{" "}
+          </h2>
+          <p className="mb-2 pl-5">
+            In most areas, successive sowing can be done from early spring until
+            early winter, but more often during hotter months...
+          </p>
+          <button className="btn  ml-5 btn1">Read</button>
+          <img className="qzi" src="/public/kak.png" alt="" />
+        </div>
+        <div className="qizaloq bg-base-200 rounded-xl">
+          <img src="/public/Frame 26.svg" className="mb-2 pl-5 pt-5" alt="" />
+          <h2 className=" text-2xl font-bold mb-2 pl-5">
+            How to plant spinach correctly in winter{" "}
+          </h2>
+          <p className="mb-2 pl-5">
+            In most areas, successive sowing can be done from early spring until
+            early winter, but more often during hotter months...
+          </p>
+          <button className="btn  ml-5 btn1">Read</button>
+          <img
+            className=" qzi1"
+            src="/public/uzum2.png"
+            alt=""
+            width={331}
+            height={236}
+          />
+        </div>
+        <div className="qizaloq bg-base-200 rounded-xl">
+          <img src="/public/Frame 26.svg" className="mb-2 pl-5 pt-5" alt="" />
+          <h2 className=" text-2xl font-bold mb-2 pl-5">
+            How to plant spinach correctly in winter{" "}
+          </h2>
+          <p className="mb-2 pl-5">
+            In most areas, successive sowing can be done from early spring until
+            early winter, but more often during hotter months...
+          </p>
+          <button className="btn  ml-5 btn1">Read</button>
+          <img className="qzi" src="/public/kak2.png" alt="" />
+        </div>
+      </div>
     </div>
   );
 }
