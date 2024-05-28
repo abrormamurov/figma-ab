@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import { Navbar } from "../components";
+import { Navbar, Footer } from "../components";
 function HomeLayout() {
   return (
     <>
@@ -8,6 +8,7 @@ function HomeLayout() {
       <main>
         <Outlet />
       </main>
+      <Footer />
     </>
   );
 }
